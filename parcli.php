@@ -2,9 +2,6 @@
 
 #tiempo de ejecucions
 #set_time_limit(0);
-//require_once("C:/xampp/htdocs/FileOld/hack/bingFind/class/color_cli/class_color.php");	// darle color al scrpit
-
-//require_once(getcwd()."/class/color_cli/class_color.php");
 
 
 class parcli
