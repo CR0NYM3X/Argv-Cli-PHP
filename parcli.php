@@ -41,6 +41,8 @@ class parcli
 	}
 
 
+
+	
 	public function setArgv($_argv)
 	{
 		$this->varArgv= $_argv;
@@ -60,11 +62,15 @@ class parcli
 	}
 
 
+
 	public function getArgv()
 	{
 
 	}
 
+
+	
+	// AGRAGAR OPCION DE QUE VERIFIQUE CADA PAREMETRO y SU VERACIDAD Y TODO EL TIPO DE DATO INGRESADO Y TODO
 	public function setParam($param1,$param2,$type="String",$help,$required=null,$dest=null)
 	{
 		$txt = new Color_texto();
@@ -114,3 +120,11 @@ nArgs=2				"limite de argumentos que permite el script"
 #$p->setParam(/*Parametro 1*/	'-D',/*Parametro 2 opcional*/	'--dns',/*Tipo*/	'string',/*Help*/	'Con esto obtendremos el DNS',/*Required*/ false,/*Item de Array*/	'url');
 #$p->setArgv($argv);
 
+
+
+/*
+agragar nueva actualizacion de que verifica cada parametro
+
+
+
+*/
